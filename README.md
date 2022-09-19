@@ -7,4 +7,4 @@ The live presentation of this workshop is November 8th at the AMIA 2022 Linking 
 ## Important Links
 - [LiaScript](https://liascript.github.io)
 - This page [on GitHub](https://github.com/arcus/LIEAF2022_workshop/blob/main/README.md)
-- This page [on LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/arcus/LIEAF2022_workshop/main/README.md#1)
+- This page [on LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/arcus/LIEAF2022_workshop)

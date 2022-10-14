@@ -57,10 +57,28 @@ Not text files:
 
 ### Git ≠ GitHub
 
-![](media/git_logo.png)<!-- style = "max-width: 150px;" --> is not ![](media/github_logo.png)<!-- style = "max-width: 200px;"-->
+![](media/git_logo.png)<!-- style = "max-width: 150px;" -->
+
+**is not**
+
+![](media/github_logo.png)<!-- style = "max-width: 200px;"-->
 
 ## Creating a Repository in GitHub
 
 ![](media/new_repository_button.png)<!-- style = "border: 1px solid;" -->
 
 ![](media/new_repository_form.png)<!-- style = "border: 1px solid;" -->
+
+### Examine Repository
+
+![](media/repository_view.png)<!-- style = "border: 1px solid;" -->
+
+### README.md
+
+### Editing Files in Browser
+
+### Preview
+
+### Saving Files and Committing
+
+### Uploading an External File

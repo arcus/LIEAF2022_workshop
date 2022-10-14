@@ -72,23 +72,20 @@ GitHub (the website) is a also place for your files to live with version control
 
 ## Creating a Repository in GitHub
 
-* Create a Repository
-* Editing files in-browser
-* The special role of README.md
-  - README
-  - md
-* Preview, especially great for md
-* Saving Files and Committing
-* Yes there are other ways but this is our way today.
-  - In day to day work, you'll want to do your edits and commits in your local computer.  multiple files in a single commit, etc.
-* Raw and rendered: what’s the difference?
-* Add an image file
+![](media/new_repository_button.png)<!-- style = "border: 1px solid;" -->
 
+![](media/new_repository_form.png)<!-- style = "border: 1px solid;" -->
 
-## Forking a Repository in GitHub
+### Examine Repository
 
-Once you're logged in to Github, you're going to fork a repository.  **Forking** means making a copy of an existing repository with the idea that you'll take the repository and run with it in your own direction, doing your own stuff and making it suit your needs.  Think of a "fork in the road".  You are making your own path forward from the starting point of an existing repository.
+![](media/repository_view.png)<!-- style = "border: 1px solid;" -->
 
-Sometimes, forks hew pretty closely to what the original repository did and try to apply improvements to the original repository.  In a case like this, the forked repository can be a source of suggested material for the original repository.  We won't use this model today, but it's helpful to remember that sometimes a forked repository runs pretty parallel to the original, and its users aren't trying to do something new and different.
+### README.md
 
-* Forking our PBJ
+### Editing Files in Browser
+
+### Preview
+
+### Saving Files and Committing
+
+### Uploading an External File

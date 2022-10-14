@@ -1,3 +1,13 @@
+## Today's Itinerary
+
+Hi everyone, we'd like to go over today's itinerary.  We have 90 minutes and we have no break scheduled.  Everything we do today can be done in the browser, so you don't need any special software installed.  We're also going to make sure you know where to go to get our materials so if you want to go back over what we talked about, you have access to the materials later.
+
+We're going to start of talking about GitHub.  Joy Payton will lead that effort.  
+
+Then Elizabeth Drellich will take on the topic of Markdown.
+
+Finally, _______________ will present Liascript.  Liascript, by the way, is what you see here on your screen.
+
 ##  Logging into GitHub
 
 First step: go to <https://github.com> and either:

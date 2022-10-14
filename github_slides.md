@@ -75,9 +75,9 @@ Not text files:
 
 ### README.md
 
-### Editing Files in Browser
+## Updating Your Repository
 
-### Preview
+### Edit and Preview
 
 ### Saving Files and Committing
 

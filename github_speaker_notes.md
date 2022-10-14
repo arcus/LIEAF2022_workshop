@@ -82,9 +82,9 @@ GitHub (the website) is a also place for your files to live with version control
 
 ### README.md
 
-### Editing Files in Browser
+## Updating Your Repository
 
-### Preview
+### Edit and Preview
 
 ### Saving Files and Committing
 

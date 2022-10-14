@@ -1,4 +1,4 @@
-##  Welcome and Logging into GitHub (5min)
+##  Logging into GitHub
 
 First step: go to <https://github.com> and either:
 
@@ -7,23 +7,22 @@ First step: go to <https://github.com> and either:
 
 GitHub is a website that provides storage for git repositories (we'll explain this a bit more) as well as some helpful add-ons that are often used by software developers.  You may or may not use these helpful add-ons such as issues, pull requests, projects, etc.
 
-Let's take a look at some of what you might see on your Git account homepage:
+## Your Account Homepage
 
------
+Let's take a look at some of what you might see on your Git account homepage.  Here is my GitHub account homepage!
 
- image goes here
+![](media/github_account_home.png)
 
------
+* In the yellow highlighted area, you can see biographical information, which you can optionally add if you want.
+* In the purple box, here are some of my pinned repositories, which are the ones I want easily visible for fast access.  A repository is a directory of files all related to a single project.  
+* In green, at the top, we see the "Repositories" tab, where I can see all 59 of my repositories.
+* And finally, if you follow the orange arrow on the right side, you can see a plus button which will allow me to add a new repository.
 
+If you think of the word *hub* as referring to a central place for something, you might realize that "GitHub" is a central place for "git".  But... what's git?  Before we start diving into this website, what is it all about?
 
+### Git is Version Control
 
-
-
-If you think of the word *hub* as referring to a central place for something, you might realize that "GitHub" is a central place for "git".  But... what's git?
-
-### Git
-
-Git is the technical industry standard for version control.  Version control exists in order to give you access to any version of a text file (usually code or configuration files) at any time, with helpful messages that tell you why things changed and by whom. Often, a scientist’s first form of version control is something like this:
+Git is the technical industry standard for version control.  Version control exists in order to give you access to any version of a text file (usually code or configuration files) at any time, with helpful messages that tell you why things changed and by whom. Often, a scientist’s first form of version control is something like this first image:
 
 ![](media/primitive_version_control.png)
 
@@ -71,6 +70,7 @@ GitHub (the website) is a also place for your files to live with version control
 * Yes there are other ways but this is our way today.
   - In day to day work, you'll want to do your edits and commits in your local computer.  multiple files in a single commit, etc.
 * Raw and rendered: what’s the difference?
+* Add an image file
 
 
 ## Forking a Repository in GitHub

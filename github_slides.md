@@ -11,14 +11,14 @@ mode: Presentation
 
 ## Logging into GitHub
 
-First step: go to [https://github.com](httos://github.com) and either:
+First step: go to [https://github.com](https://github.com) and either:
 
 * login (if you have an account)
 * create an account (it's free!)
 
 ## Your Account Homepage
 
-![](media/github_account_home.png)<!-- style = "max-width:600px" -->
+![](media/github_account_home.png)<!-- style = "max-width:800px; border: 1px solid;" -->
 
 * Biographical Information
 * Pinned Repositories (Repos)

@@ -13,8 +13,8 @@ mode: Presentation
 
 First step: go to [https://github.com](https://github.com) and either:
 
-* login (if you have an account)
-* create an account (it's free!)
+* Login (if you have an account)
+* Create an account (it's free!)
 
 ## Your Account Homepage
 
@@ -27,11 +27,14 @@ First step: go to [https://github.com](https://github.com) and either:
 
 ## Git is Version Control
 
-Not Git:
+Primitive Version Control (look familiar?)
 
 ![](media/primitive_version_control.png)<!-- style = "max-width:600px; border: 1px solid;" -->
 
-Git:
+
+## Git is Version Control
+
+Git Version Control:
 
 ![](media/git_commits.png)<!-- style = "border: 1px solid;" -->
 
@@ -74,8 +77,10 @@ Not text files:
 ![](media/repository_view.png)<!-- style = "border: 1px solid;" -->
 
 ### README.md
+![](media/education_modules_readme.png)<!-- style = "max-width:600px; border: 1px solid;" -->
 
-
+### README.md
+![](media/intro_to_r_readme.png)<!-- style = "max-width:600px; border: 1px solid;" -->
 
 ## Updating Your Repository
 

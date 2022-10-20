@@ -72,17 +72,56 @@ GitHub (the website) is a also place for your files to live with version control
 
 ## Creating a Repository in GitHub
 
+The first thing we're going to do is to create a new repository.  Please do these steps, as each step of this workshop builds on previous steps.  
+
+Begin by clicking on the plus button in the upper right and choose "New Repository".  A repository is a directory of files that is version controlled using git.  So a repository can hold one or many files that you want to track changes on across the life of your work.
+
 ![](media/new_repository_button.png)<!-- style = "border: 1px solid;" -->
+
+Then, please look at all of these arrows and follow along.  Give your repository a name, without spaces, where you see in the image the orange arrow labeled with the number 1.  Maybe you already have a topic idea that you want to create education around, so you can name it something that makes sense for your purposes.  Or you can give it a silly name like test-repository.
+
+In the second box, where you see the green arrow and the number 2, give a brief description.  You can always change this later, so don't overthink it.
+
+In the third step, make sure this repository is public.  This is a requirement for using liascript, so please be aware that the things you write in your repository will be publicly accessible... don't put company secrets there!
+
+Finally, as a fourth step, click the "Add a README file" box to check it.  Then click the green "Create Repository" button at the bottom of the form.
 
 ![](media/new_repository_form.png)<!-- style = "border: 1px solid;" -->
 
 ### Examine Repository
 
+When you look at your new repository, I want to draw your attention to three things.  At the top, highlighted here in yellow, is a file listing of your repository.  Currently, there's just one file listed there: README.md.
+
+And below that, here highlighted in orange, is where one very special file is displayed -- a file that is so special it will always be given pride of place, if it exists... README.md.
+
+In the upper right of that file display, there's a pencil icon.  You'll use this in our next steps.
+
 ![](media/repository_view.png)<!-- style = "border: 1px solid;" -->
 
 ### README.md
 
+What is README.md? A README, whether it ends in .txt or .md, or some other extension, is a standard file across lots of different kinds of projects on lots of different platforms. The oldest README I know of dates from 1974!  So it predates GitHub and predates the Internet.  It even predates me, which I can't say about much technology any more!
+
+Whether you're archiving research files, writing a complex software package, or describing a process, a README explains the overall gestalt of your project at a high level.  That's why GitHub will automatically look for a README file and display it automatically on the front page of a repository file view... something it will not do for other file names.
+
+Why write a README? Writing a README and keeping it up to date with project changes allows you to think through the project and commit your unspoken ideas to print.
+
+The README is easiest done first when your enthusiasm is high.  It can be a real drag to write it at the end, and will be too late to help you organize your thoughts.  Additionally, a README is very useful for projects involving a team.  As a guiding document, it can provide a good foundation from which everybody on the project can take their cues.  And if people have disagreeing ideas or assumptions, it's easier to have discussions about things that are written down.
+
+Here's an example of a README for some educational modules Elizabeth and I work on.  This one goes on and on in painstaking detail, and here are some screenshots of the pages of text this one includes.
+
+And here's a much briefer README we use for a different repository, this one for an R Workshop we teach.
+
+
 ## Updating Your Repository
+
+You may have noticed the pencil icon above the README file.  It appears above any text file that you can edit in the browser.  In your own repository, please click on the pencil icon above your README.md file and you'll enter the GitHub editor.
+
+Keep in mind that we are only going to update files from the browser today.  Yes, you may already know that you can synchronize this repository to your local machine, your laptop or desktop, and make changes there instead.  But for today, we're only going to work in the browser.  
+
+This is what the default GitHub editor looks like.  You'll notice that it has an "Edit file" tab as well as a "Preview" tab.  Go back and forth between those two tabs.  You'll notice that the top line, the one with the single hash mark, renders in large text in the preview.  The hash mark is a special mark that indicates that the text should be a header when the document is displayed, or "rendered".  Special marks like these constitute markdown, which is the topic for the next section of our workshop.
+
+Go back to the "Edit file" tab and update the text there.  Change the top line to a nicer title for your document.  Maybe you want to remove any underscores or dashes, for example.  You may also want to add a sentence or two describing your plans for the repository.  When you want to check what it will look like, go to the Preview tab and take a peek at how the text will render.
 
 ### Edit and Preview
 

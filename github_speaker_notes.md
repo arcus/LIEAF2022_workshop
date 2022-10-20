@@ -127,7 +127,7 @@ Here's an example of a README for some educational modules Elizabeth and I work 
 
 And here's a much briefer README we use for a different repository, this one for an R Workshop we teach.
 
-### Updating Your Repository
+### Updating Your Repository: First Method
 
 You may have noticed the pencil icon above the README file.  It appears above any text file that you can edit in the browser.  In your own repository, please click on the pencil icon above your README.md file and you'll enter the GitHub editor.
 
@@ -137,7 +137,7 @@ You may have noticed the pencil icon above the README file.  It appears above an
 
 Keep in mind that we are only going to update files from the browser today.  Yes, you may already know that you can synchronize this repository to your local machine, your laptop or desktop, and make changes there instead.  But for today, we're only going to work in the browser.  
 
-#### Edit and Preview
+#### Edit and Preview: First Method
 
 ![](media/edit_preview.png)<!-- style = "max-width:600px; border: 1px solid;" -->
 
@@ -145,7 +145,7 @@ This is what the default GitHub editor looks like.  You'll notice that it has an
 
 Go back to the "Edit file" tab and update the text there.  Change the top line to a nicer title for your document.  Maybe you want to remove any underscores or dashes, for example.  You may also want to add a sentence or two describing your plans for the repository.  When you want to check what it will look like, go to the Preview tab and take a peek at how the text will render.
 
-#### Saving Files and Committing
+#### Saving Files and Committing: First Method
 
 When you're happy with your changes, scroll toward the bottom of your page and you'll see an area that is devoted to recording a "commit message".  A "commit" creates a version of code you want to save, so that you can always remember what your files looked like at that point in time.  Committing in GitHub records who you are, the date and time, and what changed in the files.  When you add a good description of what changed, that gives you a reminder of the "why" behind the changes as well.
 
@@ -165,7 +165,55 @@ After making your commit, you'll be shown the page in GitHub corresponding to th
 
 What will happen, do you think, if I were to click on my username, pm0kjp?  Yep, that's right, it would take me to my account home, which would allow me to look into any of my repositories.
 
-#### Uploading an External File
+#### Adding a File: First Method
+
+![](media/add_file.png)<!-- style = "max-width:400px; border: 1px solid;" -->
+
+What if you want to add, say, an image to a repository?  Take a moment and find an image on your computer that you don't mind uploading to a public place.  If you don't have one, I suggest going to AMIA.org, then going to the bottom of the page and right clicking to save the AMIA logo to your computer.  I'm sure they'll forgive us this potential misuse of their logo!
+
+![](media/uploader.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+Does everyone have an image they're ready to upload?  Great!  You're now going to look in your repository page and click on the "Add File" button, choosing the "Upload files" option.  You'll see this uploader.  Go ahead and add your file, give a good commit message, and commit your changes!
+
+#### Updating Your Repository: Second Method
+
+For about a year, GitHub has offered another method to update your repository.  Go your **repository page** (click on your repository name to get there), and then, on your keyboard, type a period.  
+
+That will open github.dev.  In fact, you can also just change the .com in your repository home page to .dev to get the same view:
+
+![](media/github_dev.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+#### Edit and Preview: Second Method
+
+In the left pane, you can see an Explorer that includes the name of your repository.  If you expand your repository name, you can click on a file name and open an editor.  
+
+Then, you can click on the icon indicated here with the orange arrow to open up a live preview in a separate pane.
+
+![](media/dev_editor.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+Please do that and make an additional change or two to your README.md file.  This time, we're going to wait before making a commit.  You can see that you have some un-committed changes in the menu on the left.  Do you see the blue dot with the number 1?  That represents one changed file with uncommitted changes.
+
+![](media/dev_uncommitted_changes.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+#### Adding a File: Second Method
+
+Now we're going to add a new file by clicking the new file icon that appears when you hover over your repository name.  Do that and give your new file the name "info.txt" in the file name box.  Hit enter to create the empty new text file.  Add a few lines of text -- I put my shopping list here!
+
+![](media/dev_new_file.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+![](media/info_txt.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+You'll now see that the blue number on the left menu reads "2", for two uncommitted files.  Time to commit both of these changes as a new version!
+
+#### Saving Files and Committing: Second Method
+
+If you hover over the menu item with the blue number, you'll see that the icon is for "Source Control" and it reports two pending changes.  After hovering over this icon to read the helpful label, go ahead and click it.
+
+![](media/source_control_hover.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+You'll see your two changes listed below an empty box that is waiting for a commit message.  Type a helpful message for your commit, and then click the check mark above the commit message box to commit your changes.
+
+![](media/dev_commit.png)<!-- style = "max-width:600px; border: 1px solid;" -->
 
 ### Forking an Existing Repository
 

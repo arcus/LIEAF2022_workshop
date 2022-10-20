@@ -91,17 +91,17 @@ GitHub represents git processes in a nicer-looking way and adds its own bells an
 
 ![](media/intro_to_r_readme.png)<!-- style = "max-width:600px; border: 1px solid;" -->
 
-#### Updating Your Repository
+#### Updating Your Repository: First Method
 
 ![](media/pencil_icon.png)<!-- style = "max-width:300px; border: 1px solid;" -->
 
 ![](media/github_editor.png)<!-- style = "max-width:600px; border: 1px solid;" -->
 
-#### Edit and Preview
+#### Edit and Preview: First Method
 
 ![](media/edit_preview.png)<!-- style = "max-width:600px; border: 1px solid;" -->
 
-#### Saving Files and Committing
+#### Saving Files and Committing: First Method
 
 ![](media/commit_message.png)<!-- style = "max-width:600px; border: 1px solid;" -->
 
@@ -109,7 +109,41 @@ GitHub represents git processes in a nicer-looking way and adds its own bells an
 
 ![](media/file_view.png)<!-- style = "max-width:600px; border: 1px solid;" -->
 
-#### Uploading an External File
+#### Adding a File: First Method
+
+![](media/add_file.png)<!-- style = "max-width:400px; border: 1px solid;" -->
+
+![](media/uploader.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+#### Updating Your Repository: Second Method
+
+![](media/github_dev.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+![](media/github_editor.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+#### Edit and Preview: Second Method
+
+![](media/dev_editor.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+![](media/dev_uncommitted_changes.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+#### Adding a File: Second Method
+
+![](media/dev_new_file.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+![](media/info_txt.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+#### Saving Files and Committing: Second Method
+
+![](media/source_control_hover.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+![](media/dev_commit.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+
+#### Get Back to GitHub
+
+To get back to your normal GitHub repository, you can either change ".dev" to ".com" in the URL, or you can click on the "burger" menu (three lines) in the upper left and choose "Go To Repository".
+
+![](media/go_to_repository.png)<!-- style = "max-width:600px; border: 1px solid;" -->
 
 ### Forking an Existing Repository
 

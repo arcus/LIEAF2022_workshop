@@ -110,7 +110,6 @@ GitHub represents git processes in a nicer-looking way and adds its own bells an
 #### Updating Your Repository: Second Method
 
 ![](media/github_dev.png)<!-- style = "max-width:500px; border: 1px solid;" -->  
-![](media/dev_editor.png)<!-- style = "max-width:500px; border: 1px solid;" -->  
 
 #### Edit and Preview: Second Method
 

@@ -1,8 +1,22 @@
-# Creating Open Source Informatics Instructional Resources 
+# Creating Open Source Informatics Instructional Resources
 
-This repository contains all materials for the 2022 LIEAF workshop on **Creating Open Source Informatics Instrctuional Resources**.
+This repository contains all materials for the 2022 LIEAF workshop on **Creating Open Source Informatics Instructional Resources**.
 
 The live presentation of this workshop is November 8th at the AMIA 2022 Linking Informatics and Education Academic Forum Conference (LIEAF).
+
+Main topic sections include:
+
+* Working with GitHub
+* Writing markdown
+* Presenting with LiaScript
+
+## Contents
+
+* Working with GitHub:
+
+  - [Slide Deck](https://liascript.github.io/course/?https://raw.githubusercontent.com/arcus/LIEAF2022_workshop/main/github_slides.md)
+  - [Speaker notes](https://liascript.github.io/course/?https://raw.githubusercontent.com/arcus/LIEAF2022_workshop/main/github_speaker_notes.md)
+
 
 ## Important Links
 - [LiaScript](https://liascript.github.io)

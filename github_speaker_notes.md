@@ -6,7 +6,7 @@ We're going to start of talking about GitHub.  I will lead that effort, and my n
 
 Then my colleague Elizabeth Drellich will take on the topic of Markdown.
 
-Finally, Andre Dietrich will present Liascript.  Liascript, by the way, is what you see here on your screen.
+Finally, André Dietrich will present Liascript. André started to develop LiaScript as a side-project to simplify the development of educational content originally within the industrial eLab project, in which they tried to make universitary hardware/experiments accessible to students 24/7. Liascript, by the way, is what you see here on your screen.
 
 ## GitHub
 

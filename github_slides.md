@@ -69,12 +69,16 @@ If you think of the word *hub* as referring to a central place for something, yo
 
 {{0-1}}
 ![](media/github_account_home_0.png)<!-- style = "max-width:800px; border: 1px solid;" -->
+
 {{1-2}}
 ![](media/github_account_home_1.png)<!-- style = "max-width:800px; border: 1px solid;" -->
+
 {{2-3}}
 ![](media/github_account_home_2.png)<!-- style = "max-width:800px; border: 1px solid;" -->
+
 {{3-4}}
 ![](media/github_account_home_3.png)<!-- style = "max-width:800px; border: 1px solid;" -->
+
 {{4}}
 ![](media/github_account_home.png)<!-- style = "max-width:800px; border: 1px solid;" -->
 
@@ -138,7 +142,7 @@ Text files:
 * Anything that is encoded as plain text
 
 {{1}}
-*******
+<section>
 Not text files:
 
 * Microsoft Word
@@ -147,7 +151,7 @@ Not text files:
 * PowerPoint
 * Anything that if you open it in a text editor looks like scrambled nonsense
 
-**********
+</section>
 
 #### Git ≠ GitHub
 
@@ -194,16 +198,34 @@ In the third step, make sure this repository is public.  This is a requirement f
 --{{5}}--
 Finally, as a fourth step, click the "Add a README file" box to check it.  Then click the green "Create Repository" button at the bottom of the form.
 
-
+{{0-2}}
+<section>
 ![](media/new_repository_button.png)<!-- style = "max-width:200px; border: 1px solid;" -->  
+</section>
 
-{{2-3}}![](media/new_repository_form_1.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+{{2-3}}
+<section>
+![](media/new_repository_button.png)<!-- style = "max-width:200px; border: 1px solid;" -->
+![](media/new_repository_form_1.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+</section>
 
-{{3-4}}![](media/new_repository_form_2.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+{{3-4}}
+<section>
+![](media/new_repository_button.png)<!-- style = "max-width:200px; border: 1px solid;" -->
+![](media/new_repository_form_2.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+</section>
 
-{{4-5}}![](media/new_repository_form_3.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+{{4-5}}
+<section>
+![](media/new_repository_button.png)<!-- style = "max-width:200px; border: 1px solid;" -->
+![](media/new_repository_form_3.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+</section>
 
-{{5}}![](media/new_repository_form.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+{{5}}
+<section>
+![](media/new_repository_button.png)<!-- style = "max-width:200px; border: 1px solid;" -->
+![](media/new_repository_form.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+</section>
 
 #### Examine Repository
 

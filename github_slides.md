@@ -157,17 +157,13 @@ Not text files:
 
 --{{0}}--
 <section>
-Git is not GitHub, although the two concepts are closely linked.
+Git is not GitHub, although the two concepts are closely linked. <br/><br/>
 
+"git" is a version control system and command line program. You don't need to access a website to use it.  You can use it by itself and do everything you need to, if you're comfortable working on the command line. Lots of people do just that! <br/><br/>
 
-"git" is a version control system and command line program. You don't need to access a website to use it.  You can use it by itself and do everything you need to, if you're comfortable working on the command line. Lots of people do just that!
+While Git by itself is great at version control and keeping track of your changes, **GitHub** wraps all of the sometimes complex inner workings of Git into a visually pleasing, easy to understand user interface.  **GitHub** is a company that has done a good job of making tools that work with git, but GitHub and git are distinct products, maintained by different organizations.  You may want to learn more about git itself, or you might want to investigate other products that are GitHub competitors, like BitBucket.  That being said, we're going to teach you some things about GitHub today, because we think that's a good way to start thinking about these ideas for the first time. <br/><br/>
 
-
-While Git by itself is great at version control and keeping track of your changes, **GitHub** wraps all of the sometimes complex inner workings of Git into a visually pleasing, easy to understand user interface.  **GitHub** is a company that has done a good job of making tools that work with git, but GitHub and git are distinct products, maintained by different organizations.  You may want to learn more about git itself, or you might want to investigate other products that are GitHub competitors, like BitBucket.  That being said, we're going to teach you some things about GitHub today, because we think that's a good way to start thinking about these ideas for the first time.
-
-
-Instead of having to learn a bunch of command line tools, GitHub (both the website as well as the client software you can run on your computer) allows you to see things like version history, file change summaries, etc., very simply. It's fairly intuitive for most day-to-day uses.
-
+Instead of having to learn a bunch of command line tools, GitHub (both the website as well as the client software you can run on your computer) allows you to see things like version history, file change summaries, etc., very simply. It's fairly intuitive for most day-to-day uses. <br/><br/>
 
 GitHub (the website) is a also place for your files to live with version control applied to them, so you can think of it as a souped-up remote server. That means it's great not only for version control (which you could just do on your local computer using a git-enabled product like GitHub Desktop), but also having a central hub for all your files that you and your collaborators can use as the canonical source of the best, most up-to-date files.
 

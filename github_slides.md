@@ -198,8 +198,11 @@ Finally, as a fourth step, click the "Add a README file" box to check it.  Then 
 ![](media/new_repository_button.png)<!-- style = "max-width:200px; border: 1px solid;" -->  
 
 {{2-3}}![](media/new_repository_form_1.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+
 {{3-4}}![](media/new_repository_form_2.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+
 {{4-5}}![](media/new_repository_form_3.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+
 {{5}}![](media/new_repository_form.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
 
 #### Examine Repository

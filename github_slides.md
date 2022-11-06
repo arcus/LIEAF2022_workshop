@@ -14,19 +14,19 @@ Hi everyone, we'd like to go over today's itinerary.  We have 90 minutes and we 
 We're going to start off talking about GitHub.  I will lead that effort, and my name is Joy Payton.  I lead data science education efforts in the Research Institute of the Children's Hospital of Philadelphia.
 
 --{{2}}--
-Then my colleague Elizabeth Drellich will take on the topic of Markdown.
+Then my colleague Elizabeth Drellich will take on the topics of Markdown and LiaScript.
 
 --{{3}}--
-Finally, André Dietrich will present Liascript. André started to develop LiaScript as a side-project to simplify the development of educational content originally within the industrial eLab project, in which they tried to make universitary hardware/experiments accessible to students 24/7. Liascript, by the way, is what you see here on your screen.
+Finally, André Dietrich will present additional Liascript materials. André started to develop LiaScript as a side-project to simplify the development of educational content originally within the industrial eLab project, in which they tried to make universitary hardware/experiments accessible to students 24/7. Liascript, by the way, is what you see here on your screen.
 
 Follow along: https://bit.ly/amia-liascript
 
 {{1}}
 * GitHub: Creating a place for your files (Joy Payton)
 {{2}}
-* Markdown: Making documentation readable (Elizabeth Drellich)
+* Markdown and LiaScript: Making documentation readable (Elizabeth Drellich)
 {{3}}
-* Liascript: Making documentation beautiful and interactive (André Dietrich)
+* LiaScript Extras: Making documentation beautiful and interactive (André Dietrich)
 
 ## GitHub
 
@@ -88,10 +88,11 @@ If you think of the word *hub* as referring to a central place for something, yo
 Git is the technical industry standard for version control.  Version control exists in order to give you access to any version of a text file (usually code or configuration files) at any time, with helpful messages that tell you why things changed and by whom. Often, a scientist's first form of version control is something like this first image:
 
 --{{1}}--
-If you have a file system that looks like this, with clues embedded in file names, you have a crude (and large, and hard to work with) version control system already. You probably have to say things like "no, it's the one with the time stamp in March, remember, because in April that was the one that says 'final' but it's not really …". Maybe you're afraid to throw any of the files away because you're not 100% sure you remember exactly why you made that particular version, but you're a little chagrined that you have 10 versions of (mostly) the same .csv. If your files are large, you might have a storage problem as well!
+<section>
+If you have a file system that looks like this, with clues embedded in file names, you have a crude (and large, and hard to work with) version control system already. You probably have to say things like "no, it's the one with the time stamp in March, remember, because in April that was the one that says 'final' but it's not really …". Maybe you're afraid to throw any of the files away because you're not 100% sure you remember exactly why you made that particular version, but you're a little chagrined that you have 10 versions of (mostly) the same .csv. If your files are large, you might have a storage problem as well!<br/><br/>
 
---{{2}}--
 And what about your clinical or research collaborators? Are you sending these files back and forth over email for each member to make changes? What if someone accidentally works on a version that doesn't include the changes of another collaborator? Working by committee is hard when you rely on local copies. Maybe you have just one copy on a server that everyone has access to, which is better. But while you have the file open, your assistant or co-PI can't make changes. Frustrating!
+</section>
 
 
 Primitive Version Control (look familiar?)
@@ -204,32 +205,28 @@ Finally, as a fourth step, click the "Add a README file" box to check it.  Then 
 
 {{2-3}}
 <section>
-![](media/new_repository_button.png)<!-- style = "max-width:200px; border: 1px solid;" -->
 ![](media/new_repository_form_1.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
 </section>
 
 {{3-4}}
 <section>
-![](media/new_repository_button.png)<!-- style = "max-width:200px; border: 1px solid;" -->
-![](media/new_repository_form_2.png)<!-- style = "max-width:600px; border: 1px solid;" -->
+![](media/new_repository_form_2.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
 </section>
 
 {{4-5}}
 <section>
-![](media/new_repository_button.png)<!-- style = "max-width:200px; border: 1px solid;" -->
 ![](media/new_repository_form_3.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
 </section>
 
 {{5}}
 <section>
-![](media/new_repository_button.png)<!-- style = "max-width:200px; border: 1px solid;" -->
 ![](media/new_repository_form.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
 </section>
 
 #### Examine Repository
 
 --{{0}}--
-When you look at your new repository, I want to draw your attention to three things.  At the top, highlighted here in yellow, is a file listing of your repository.  Currently, there's just one file listed there: README.md.
+When you look at your new repository, I want to draw your attention to three things.  At the top, highlighted here in yellow, is a file listing of your repository.  Currently, there's just one file listed there: README.md.  If we had additional files or folders in the repository, they'd be listed here as well.
 
 --{{1}}--
 And below that, here highlighted in orange, is where one very special file is displayed -- a file that is so special it will always be given pride of place, if it exists... README.md.
@@ -258,7 +255,7 @@ Here's an example of a README for some educational modules Elizabeth and I work 
 --{{0}}--
 And here's a much briefer README we use for a different repository, this one for an R Workshop we teach.
 
-![](media/intro_to_r_readme.png)<!-- style = "max-width:800px; border: 1px solid;" -->
+![](media/intro_to_r_readme.png)<!-- style = "max-width:800px;" -->
 
 #### Updating Your Repository: First Method
 
@@ -272,7 +269,7 @@ Keep in mind that we are only going to update files from the browser today.  Yes
 </section>
 
 
-![](media/pencil_icon.png)<!-- style = "max-width:400px; border: 1px solid;" -->  
+![](media/pencil_icon.png)<!-- style = "max-width:300px; border: 1px solid;" -->  
 ![](media/github_editor.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
 
 #### Edit and Preview: First Method
@@ -313,6 +310,7 @@ After making your commit, you'll be shown the page in GitHub corresponding to th
 
 What will happen, do you think, if I were to click on my username, pm0kjp?  Yep, that's right, it would take me to my account home, which would allow me to look into any of my repositories.
 </section>
+
 ![](media/file_view.png)<!-- style = "max-width:800px; border: 1px solid;" -->
 
 #### Adding a File: First Method

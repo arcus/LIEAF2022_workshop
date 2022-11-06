@@ -235,6 +235,13 @@ And below that, here highlighted in orange, is where one very special file is di
 --{{2}}--
 In the upper right of that file display, there's a pencil icon.  You'll use this in our next steps.
 
+{{0}}
+![](media/repository_view_1.png)<!-- style = "max-width:800px; border: 1px solid;" -->
+
+{{1}}
+![](media/repository_view_2.png)<!-- style = "max-width:800px; border: 1px solid;" -->
+
+{{2}}
 ![](media/repository_view.png)<!-- style = "max-width:800px; border: 1px solid;" -->
 
 #### README.md Example 1
@@ -306,11 +313,7 @@ Go ahead and add a more useful commit message and click the green "Commit Change
 #### Getting Back to Repository View
 
 --{{0}}--
-<section>
-After making your commit, you'll be shown the page in GitHub corresponding to the file you changed.  To get back to the repository level, click on the repository name.  Here I've pointed to my repository name with orange arrows.<br/><br/>
-
-What will happen, do you think, if I were to click on my username, pm0kjp?  Yep, that's right, it would take me to my account home, which would allow me to look into any of my repositories.
-</section>
+After making your commit, you'll be shown the page in GitHub corresponding to the file you changed.  To get back to the repository level, click on the repository name.  Here I've pointed to my repository name with orange arrows.
 
 ![](media/file_view.png)<!-- style = "max-width:800px; border: 1px solid;" -->
 
@@ -320,7 +323,9 @@ What will happen, do you think, if I were to click on my username, pm0kjp?  Yep,
 <section>
 What if you want to add, say, an image to a repository?  Take a moment and find an image on your computer that you don't mind uploading to a public place.  If you don't have one, I suggest going to AMIA.org, then going to the bottom of the page and right clicking to save the AMIA logo to your computer.  I'm sure they'll forgive us this potential misuse of their logo!<br/><br/>
 
-Does everyone have an image they're ready to upload?  Great!  You're now going to look in your repository page and click on the "Add File" button, choosing the "Upload files" option.  You'll see this uploader.  Go ahead and add your file, give a good commit message, and commit your changes!
+Does everyone have an image they're ready to upload?  Great!  
+
+You're now going to look in your repository page and click on the "Add File" button, choosing the "Upload files" option.  You'll see this uploader.  Go ahead and add your file, give a good commit message, and commit your changes!
 </section>
 
 ![](media/add_file.png)<!-- style = "max-width:400px; border: 1px solid;" -->  
@@ -347,6 +352,8 @@ In the left pane, you can see an Explorer that includes the name of your reposit
 Then, you can click on the icon indicated here with the orange arrow to open up a live preview in a separate pane.<br/><br/>
 
 Please do that and make an additional change or two to your README.md file.  This time, we're going to wait before making a commit.  You can see that you have some un-committed changes in the menu on the left.  Do you see the blue dot with the number 1?  That represents one changed file with uncommitted changes.
+
+Let's wait for everyone to catch up.  How are folks doing?
 </section>
 
 ![](media/dev_editor.png)<!-- style = "max-width:800px; border: 1px solid;" -->  
@@ -357,12 +364,10 @@ Please do that and make an additional change or two to your README.md file.  Thi
 
 --{{0}}--
 <section>
-
 Now we're going to add a new file by clicking the new file icon that appears when you hover over your repository name.  Do that and give your new file the name "info.txt" in the file name box.  Hit enter to create the empty new text file.  Add a few lines of text -- I put my shopping list here!<br/><br/>
 
 You'll now see that the blue number on the left menu reads "2", for two uncommitted files.  Time to commit both of these changes as a new version!
 </section>
-
 
 ![](media/dev_new_file.png)<!-- style = "max-width:300px; border: 1px solid;" -->  
 ![](media/info_txt.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
@@ -371,7 +376,6 @@ You'll now see that the blue number on the left menu reads "2", for two uncommit
 
 --{{0}}--
 <section>
-
 If you hover over the menu item with the blue number, you'll see that the icon is for "Source Control" and it reports two pending changes.  After hovering over this icon to read the helpful label, go ahead and click it.<br/><br/>
 
 You'll see your two changes listed below an empty box that is waiting for a commit message.  Type a helpful message for your commit, and then click the check mark above the commit message box to commit your changes.
@@ -396,11 +400,17 @@ Sometimes you want to copy an existing project and use it as the starting point 
 Please go to https://github.com/arcus/pbj and click on the "fork" button at the top.  You'll see a form like the one on your screen.  Please click on "Create Fork".
 </section>
 
+Please go to https://github.com/arcus/pbj
+
 ![](media/pbj_fork_button.png)<!-- style = "max-width:500px; border: 1px solid;" -->  ![](media/fork_form.png)<!-- style = "max-width:500px; border: 1px solid;" -->  
 
 #### Looking at Your Fork
 
 --{{0}}--
-Now you'll have your own copy, taken at this point in time.  This represents a "fork" in the road, which is why we call this "forking".  The repository you copied may continue to grow and change in one direction while you make your copy do something else entirely, changing it in different ways.  It's important to realize that your fork of the PBJ repo is separate from the original... what you do on your copy won't affect the original, and changes to the original won't affect your copy.  
+<section>
+Now you'll have your own copy, taken at this point in time.  This represents a "fork" in the road, which is why we call this "forking".  The repository you copied may continue to grow and change in one direction while you make your copy do something else entirely, changing it in different ways.  It's important to realize that your fork of the PBJ repo is separate from the original... what you do on your copy won't affect the original, and changes to the original won't affect your copy.  <br/><br/>
+
+With that, I'm going to pass the torch over to Elizabeth for the next portion of the workshop, which will use this fork you just created.
+</section>
 
 ![](media/your_fork.png)<!-- style = "max-width:500px; border: 1px solid;" -->

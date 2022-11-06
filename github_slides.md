@@ -8,7 +8,7 @@ version:  0.1.0
 ## Today's Itinerary
 
 --{{0}}--
-Hi everyone, we'd like to go over today's itinerary.  We have 90 minutes and we have no break scheduled.  Everything we do today can be done in the browser, so you don't need any special software installed.  We're also going to make sure you know where to go to get our materials so if you want to go back over what we talked about, you have access to the materials later.
+Hi everyone, we'd like to go over today's itinerary.  We have 90 minutes and we have no break scheduled.  Everything we do today can be done in the browser, so you don't need any special software installed.  Want to follow along?  The URL shown here takes you to the presentation you're seeing on screen: bit.ly/amia-liascript.
 
 --{{1}}--
 We're going to start off talking about GitHub.  I will lead that effort, and my name is Joy Payton.  I lead data science education efforts in the Research Institute of the Children's Hospital of Philadelphia.
@@ -45,12 +45,16 @@ First step: go to [https://github.com](https://github.com) and either:
 * Create an account (it's free!)
 
 --{{0}}--
-GitHub is a website that provides storage for git repositories (we'll explain this a bit more) as well as some helpful add-ons that are often used by software developers.  You may or may not use these helpful add-ons such as issues, pull requests, projects, etc.
+OK, first I'll give you all a chance to follow the instructions you see on screen.  Go to github.com and log in or create an account.
+
+Can I get a visual poll of how you're doing?  Who here is logged in to GitHub?
+
+Great, so what are we looking at?  GitHub is a website that provides storage for git repositories (we'll explain this a bit more) as well as some helpful add-ons that are often used by software developers.  You may or may not use these helpful add-ons such as issues, pull requests, projects, etc.
 
 #### Your Account Homepage
 
 --{{0}}--
-Let's take a look at some of what you might see on your Git account homepage.  Here is my GitHub account homepage!
+Let's take a look at some of what you might see on your Git account homepage.  Here is my GitHub account homepage, which may look a little, or a lot, different from yours.
 
 --{{1}}--
 In the yellow highlighted area, you can see biographical information, which you can optionally add if you want.
@@ -59,13 +63,13 @@ In the yellow highlighted area, you can see biographical information, which you 
 In the purple box, here are some of my pinned repositories, which are the ones I want easily visible for fast access.  A repository is a directory of files all related to a single project.  
 
 --{{3}}--
-In green, at the top, we see the "Repositories" tab, where I can see all 59 of my repositories.
+Speaking of repositories, in green, at the top, we see the "Repositories" tab, where I can see all of my repositories.
 
 --{{4}}--
 And finally, if you follow the orange arrow on the right side, you can see a plus button which will allow me to add a new repository.
 
 --{{5}}--
-If you think of the word *hub* as referring to a central place for something, you might realize that "GitHub" is a central place for "git".  But... what's git?  Before we start diving into this website, what is it all about?
+What can the name "GitHub" tell us? If you think of the word *hub* as referring to a central place for something, you might realize that "GitHub" is a central place for "git".  But... what's git?  
 
 {{0-1}}
 ![](media/github_account_home_0.png)<!-- style = "max-width:800px; border: 1px solid;" -->
@@ -85,15 +89,16 @@ If you think of the word *hub* as referring to a central place for something, yo
 #### Version Control
 
 --{{0}}--
-Git is the technical industry standard for version control.  Version control exists in order to give you access to any version of a text file (usually code or configuration files) at any time, with helpful messages that tell you why things changed and by whom. Often, a scientist's first form of version control is something like this first image:
+Git is the industry standard in tech for version control.  Version control exists in order to give you access to older versions of your files, with helpful messages that tell you why things changed and by whom. Often, a scientist's first form of version control is something like this first image:
 
 --{{1}}--
 <section>
-If you have a file system that looks like this, with clues embedded in file names, you have a crude (and large, and hard to work with) version control system already. You probably have to say things like "no, it's the one with the time stamp in March, remember, because in April that was the one that says 'final' but it's not really …". Maybe you're afraid to throw any of the files away because you're not 100% sure you remember exactly why you made that particular version, but you're a little chagrined that you have 10 versions of (mostly) the same .csv. If your files are large, you might have a storage problem as well!<br/><br/>
+If you have a file system that looks like this, with clues embedded in file names, you have a crude (and large, and hard to work with) version control system already. Does this look familiar to anyone?  
+
+Maybe you're afraid to throw any of the files away because you're not 100% sure you remember exactly why you made that particular version, but you're a little chagrined that you have 10 versions of (mostly) the same file If your files are large, you might have a storage problem as well!
 
 And what about your clinical or research collaborators? Are you sending these files back and forth over email for each member to make changes? What if someone accidentally works on a version that doesn't include the changes of another collaborator? Working by committee is hard when you rely on local copies. Maybe you have just one copy on a server that everyone has access to, which is better. But while you have the file open, your assistant or co-PI can't make changes. Frustrating!
 </section>
-
 
 Primitive Version Control (look familiar?)
 
@@ -111,7 +116,7 @@ Git helps you track changes in your text files.  Specifically, Git will help you
 
 What changed, When it changed, Who changed it, and Why they changed it.  Here you can see a little picture of me that shows that I, pm0kjp, changed the code, and the date I changed it, and a bit of description as to why I changed the code.  When I click on one of the changes, the blue codes on the far right, I can see the actual changes to the code, with new lines shown in green and removed lines shown in red. <br/><br/>
 
-Not only does Git keep a record of this, but it allows you to go back in time and recapture things you deleted or changed and now have second thoughts about.  This is great because it keeps you from hoarding multiple versions of a file, which fill up your hard drive and also give you heartburn when you have to comb through them to find that one thing you are looking for. <br/><br/>
+Not only does Git keep a record of this, but it allows you to go back in time and look at things you deleted or changed and now have second thoughts about. <br/><br/>
 
 Now, earlier, we said that Git helps track changes in **text** files.  What did we mean by that?
 </section>
@@ -164,10 +169,6 @@ Git is not GitHub, although the two concepts are closely linked. <br/><br/>
 
 While Git by itself is great at version control and keeping track of your changes, **GitHub** wraps all of the sometimes complex inner workings of Git into a visually pleasing, easy to understand user interface.  **GitHub** is a company that has done a good job of making tools that work with git, but GitHub and git are distinct products, maintained by different organizations.  You may want to learn more about git itself, or you might want to investigate other products that are GitHub competitors, like BitBucket.  That being said, we're going to teach you some things about GitHub today, because we think that's a good way to start thinking about these ideas for the first time. <br/><br/>
 
-Instead of having to learn a bunch of command line tools, GitHub (both the website as well as the client software you can run on your computer) allows you to see things like version history, file change summaries, etc., very simply. It's fairly intuitive for most day-to-day uses. <br/><br/>
-
-GitHub (the website) is a also place for your files to live with version control applied to them, so you can think of it as a souped-up remote server. That means it's great not only for version control (which you could just do on your local computer using a git-enabled product like GitHub Desktop), but also having a central hub for all your files that you and your collaborators can use as the canonical source of the best, most up-to-date files.
-
 </section>
 
 ![](media/git_logo.png)<!-- style = "max-width: 150px;" -->
@@ -176,7 +177,7 @@ GitHub (the website) is a also place for your files to live with version control
 
 ![](media/github_logo.png)<!-- style = "max-width: 200px;"-->
 
-GitHub represents git processes in a nicer-looking way and adds its own bells and whistles.  It's not the only company or website that works really well with git!
+GitHub represents git processes in a nicer-looking way and adds its own bells and whistles.  It also serves as a place for you to keep a copy of your git repositories.  It's not the only company or website that works really well with git!
 
 ### Creating a Repository in GitHub
 
@@ -184,10 +185,10 @@ GitHub represents git processes in a nicer-looking way and adds its own bells an
 The first thing we're going to do is to create a new repository.  Please do these steps, as each step of this workshop builds on previous steps.  
 
 --{{1}}--
-Begin by clicking on the plus button in the upper right and choose "New Repository".  A repository is a directory of files that is version controlled using git.  So a repository can hold one or many files that you want to track changes on across the life of your work.
+Begin by clicking on the plus button in the upper right and choose "New Repository".  A repository is a directory of files that is version controlled using git.  So a repository can hold one or many files that you want to track changes on across the life of your work.  How are we doing, have folks found that plus button and clicked on it?
 
 --{{2}}--
-Then, please look at all of these arrows and follow along.  Give your repository a name, without spaces, where you see in the image the orange arrow labeled with the number 1.  Maybe you already have a topic idea that you want to create education around, so you can name it something that makes sense for your purposes.  Or you can give it a silly name like test-repository.
+Then, please look at all of these arrows and follow along.  Give your repository a name, without spaces, where you see in the image the orange arrow labeled with the number 1.  You can give it a meaningful name or just something like test-repository.
 
 --{{3}}--
 In the second box, where you see the green arrow and the number 2, give a brief description.  You can always change this later, so don't overthink it.

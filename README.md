@@ -15,8 +15,6 @@ Main topic sections include:
 * Working with GitHub:
 
   - [Slide Deck](https://liascript.github.io/course/?https://raw.githubusercontent.com/arcus/LIEAF2022_workshop/main/github_slides.md)
-  - [Speaker notes](https://liascript.github.io/course/?https://raw.githubusercontent.com/arcus/LIEAF2022_workshop/main/github_speaker_notes.md)
-
 
 ## Important Links
 - [LiaScript](https://liascript.github.io)

@@ -235,10 +235,10 @@ And below that, here highlighted in orange, is where one very special file is di
 --{{2}}--
 In the upper right of that file display, there's a pencil icon.  You'll use this in our next steps.
 
-{{0}}
+{{0-1}}
 ![](media/repository_view_1.png)<!-- style = "max-width:800px; border: 1px solid;" -->
 
-{{1}}
+{{1-2}}
 ![](media/repository_view_2.png)<!-- style = "max-width:800px; border: 1px solid;" -->
 
 {{2}}
@@ -388,7 +388,7 @@ You'll see your two changes listed below an empty box that is waiting for a comm
 --{{0}}--
 To get back to your normal GitHub repository, you can either change ".dev" to ".com" in the URL, or you can click on the "burger" menu (three lines) in the upper left and choose "Go To Repository".
 
-![](media/go_to_repository.png)<!-- style = "max-width:500px; border: 1px solid;" -->
+![](media/go_to_repository.png)<!-- style = "max-width:400px; border: 1px solid;" -->
 
 ### Forking an Existing Repository
 

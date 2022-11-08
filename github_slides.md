@@ -45,11 +45,13 @@ First step: go to [https://github.com](https://github.com) and either:
 * Create an account (it's free!)
 
 --{{0}}--
-OK, first I'll give you all a chance to follow the instructions you see on screen.  Go to github.com and log in or create an account.
+<section>
+OK, first I'll give you all a chance to follow the instructions you see on screen.  Go to github.com and log in or create an account.<br/><br/>
 
-Can I get a visual poll of how you're doing?  Who here is logged in to GitHub?
+Can I get a visual poll of how you're doing?  Who here is logged in to GitHub?<br/><br/>
 
-Great, so what are we looking at?  GitHub is a website that provides storage for git repositories (we'll explain this a bit more) as well as some helpful add-ons that are often used by software developers.  You may or may not use these helpful add-ons such as issues, pull requests, projects, etc.
+Great, so what are we looking at?  GitHub is a website that provides storage for git repositories (we'll explain this a bit more) as well as some helpful add-ons that are often used by software developers.  You may or may not use these helpful add-ons such as issues, pull requests, projects, etc.<br/>
+</section>
 
 #### Your Account Homepage
 
@@ -93,11 +95,11 @@ Git is the industry standard in tech for version control.  Version control exist
 
 --{{1}}--
 <section>
-If you have a file system that looks like this, with clues embedded in file names, you have a crude (and large, and hard to work with) version control system already. Does this look familiar to anyone?  
+If you have a file system that looks like this, with clues embedded in file names, you have a crude (and large, and hard to work with) version control system already. Does this look familiar to anyone? <br/><br/>
 
-Maybe you're afraid to throw any of the files away because you're not 100% sure you remember exactly why you made that particular version, but you're a little chagrined that you have 10 versions of (mostly) the same file If your files are large, you might have a storage problem as well!
+Maybe you're afraid to throw any of the files away because you're not 100% sure you remember exactly why you made that particular version, but you're a little chagrined that you have 10 versions of (mostly) the same file If your files are large, you might have a storage problem as well!  <br/><br/>
 
-And what about your clinical or research collaborators? Are you sending these files back and forth over email for each member to make changes? What if someone accidentally works on a version that doesn't include the changes of another collaborator? Working by committee is hard when you rely on local copies. Maybe you have just one copy on a server that everyone has access to, which is better. But while you have the file open, your assistant or co-PI can't make changes. Frustrating!
+And what about your clinical or research collaborators? Are you sending these files back and forth over email for each member to make changes? Working by committee is hard when you rely on local copies.
 </section>
 
 Primitive Version Control (look familiar?)
@@ -114,7 +116,12 @@ Good news! There is a better way to do version control. While there are several 
 <section>
 Git helps you track changes in your text files.  Specifically, Git will help you track the version of your files and keep records of: <br/><br/>
 
-What changed, When it changed, Who changed it, and Why they changed it.  Here you can see a little picture of me that shows that I, pm0kjp, changed the code, and the date I changed it, and a bit of description as to why I changed the code.  When I click on one of the changes, the blue codes on the far right, I can see the actual changes to the code, with new lines shown in green and removed lines shown in red. <br/><br/>
+* What changed
+* When it changed
+* Who changed it
+* Why they changed it  <br/><br/>
+
+Here you can see a little picture of me that shows that I, pm0kjp, changed the code, and the date I changed it, and a bit of description as to why I changed the code.  When I click on one of the changes, the blue codes on the far right, I can see the actual changes to the code, with new lines shown in green and removed lines shown in red. <br/><br/>
 
 Not only does Git keep a record of this, but it allows you to go back in time and look at things you deleted or changed and now have second thoughts about. <br/><br/>
 
@@ -206,22 +213,22 @@ Finally, as a fourth step, click the "Add a README file" box to check it.  Then 
 
 {{2-3}}
 <section>
-![](media/new_repository_form_1.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+![](media/new_repository_form_1.png)<!-- style = "max-width:500px; border: 1px solid;" -->  
 </section>
 
 {{3-4}}
 <section>
-![](media/new_repository_form_2.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+![](media/new_repository_form_2.png)<!-- style = "max-width:500px; border: 1px solid;" -->  
 </section>
 
 {{4-5}}
 <section>
-![](media/new_repository_form_3.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+![](media/new_repository_form_3.png)<!-- style = "max-width:500px; border: 1px solid;" -->  
 </section>
 
 {{5}}
 <section>
-![](media/new_repository_form.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+![](media/new_repository_form.png)<!-- style = "max-width:500px; border: 1px solid;" -->  
 </section>
 
 #### Examine Repository
@@ -277,8 +284,8 @@ Keep in mind that we are only going to update files from the browser today.  Yes
 </section>
 
 
-![](media/pencil_icon.png)<!-- style = "max-width:300px; border: 1px solid;" -->  
-![](media/github_editor.png)<!-- style = "max-width:600px; border: 1px solid;" -->  
+![](media/pencil_icon.png)<!-- style = "max-width:200px; border: 1px solid;" -->  
+![](media/github_editor.png)<!-- style = "max-width:500px; border: 1px solid;" -->  
 
 #### Edit and Preview: First Method
 
@@ -291,7 +298,7 @@ Go back to the "Edit file" tab and update the text there.  Change the top line t
 
 </section>
 
-![](media/edit_preview.png)<!-- style = "max-width:900px;" -->
+![](media/edit_preview.png)<!-- style = "max-width:800px;" -->
 
 #### Saving Files and Committing: First Method
 

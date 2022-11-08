@@ -34,6 +34,11 @@ send.liascript("loading: " + url)
 </script>
 @end
 
+
+import: https://raw.githubusercontent.com/liaTemplates/vtk/master/README.md
+        https://raw.githubusercontent.com/LiaTemplates/ABCjs/0.0.2/README.md
+        https://raw.githubusercontent.com/liascript/CodeRunner/master/README.md
+
 -->
 
 # Custom extensions
@@ -160,6 +165,47 @@ pow: <script>@0 ** @input(`n`)</script>
 
 [here](https://github.com/topics/liascript-template)
 
+
+### VTK - example
+
+@VTK.loadIframe(https://kitware.github.io/vtk-js-datasets/data/vti/head-binary-zlib.vti)
+
+### R - example
+
+``` R
+library(ggplot2)
+
+# Use stdout as per normal...
+print("Hello, world!")
+
+# Use plots...
+png(file="out1.png")
+plot(cars)
+
+# Even ggplot!
+png(file="out2.png")
+qplot(wt, mpg, data = mtcars, colour = factor(cyl))
+```
+@LIA.r
+
+### ABC - example
+
+``` abc
+% audio: true
+% autoplay: false
+% notes: true
+% responsive: true
+X: 1
+T: Cooley's
+M: 4/4
+L: 1/8
+K: Emin
+|:D2|"Em"EBBA B2 EB|~B2 AB dBAG|"D"FDAD BDAD|FDAD dAFD|
+"Em"EBBA B2 EB|B2 AB defg|"D"afe^c dBAF|"Em"DEFD E2:|
+|:gf|"Em"eB B2 efge|eB B2 gedB|"D"A2 FA DAFA|A2 FA defg|
+"Em"eB B2 eBgB|eB B2 defg|"D"afe^c dBAF|"Em"DEFD E2:|
+```
+@ABCJS.eval
 
 # lightweight - ClassRoom
 

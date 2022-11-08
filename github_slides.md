@@ -8,7 +8,10 @@ version:  0.1.0
 ## Today's Itinerary
 
 --{{0}}--
-Hi everyone, we'd like to go over today's itinerary.  We have 90 minutes and we have no break scheduled.  Everything we do today can be done in the browser, so you don't need any special software installed.  Want to follow along?  The URL shown here takes you to the presentation you're seeing on screen: bit.ly/amia-liascript.
+Hi everyone, we'd like to go over today's itinerary.  We have 90 minutes and we have no break scheduled.  Everything we do today can be done in the browser, so you don't need any special software installed.  Want to follow along?  The URL shown here takes you to the presentation you're seeing on screen: https://bit.ly/amia-liascript
+
+[qr-code](https://bit.ly/amia-liascript).
+
 
 --{{1}}--
 We're going to start off talking about GitHub.  I will lead that effort, and my name is Joy Payton.  I lead data science education efforts in the Research Institute of the Children's Hospital of Philadelphia.
